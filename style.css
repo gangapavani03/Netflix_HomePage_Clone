@@ -1,0 +1,213 @@
+*{
+    margin:0;
+    border:border box;
+    font-family:'Poppins',sans-serif;
+}
+body{
+    background-color: black;
+    color:white;
+}
+.header{
+   
+    height:93vh;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("Netflix-Background.jpg");
+    background-size: cover;     
+    background-position: center;
+    padding: 10px 8%;
+}
+.nav-bar{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px 0;
+}
+.logo{
+    height:40px;
+    width:148px;
+}
+.b1{
+    display:inline-flex;
+    align-items: center;
+    height: 32px;
+    width:125px;
+    color:white;
+    background-color: transparent;
+    border:1px solid white;
+    padding:7px 20px;
+    font-size:14px;
+    border-radius:4px;
+    margin-left:10px;
+}
+.b1 img{
+    width:10px;
+    margin-left:5px;
+}
+.b1:hover{
+    background-color: transparent;
+}
+.b2{
+    height: 32px;
+    width:77px;
+    color:#fff;
+    background-color: #db0001;
+    border:none;
+    font-size:14px;
+    font-weight:700;
+    border-radius:4px;
+    margin-left:10px;
+}
+.b2:hover{
+    background-color: #bd0909;
+}
+.text{
+    position:relative;
+    top:30%;
+    text-align:center;
+}
+.text h1{
+    font-size:50px;
+    font-weight: 800;
+
+}
+.text h3{
+    font-size: 25px;
+    font-weight:500;
+    margin-top: 13px;
+
+}
+.text p{
+    font-size:20px;
+    margin-top:23px;
+}
+.email input{
+    height:56px;
+    width:400px;
+    margin-top:25px;
+    background-color: transparent;
+    color: #ffffff;
+    border:0.00001px solid white;
+    font-size:15px;
+    font-weight: 700;
+    border-radius:4px;
+    
+}
+.e-text{
+    padding-left:15px;
+}
+button{
+    height:60px;
+    width:203px;
+    border:none;
+    border-radius:4px;
+    background-color: #db0001;
+    color:#fff;
+    font-size:20px;
+    font-weight:700;
+    margin-left: 3px;
+}
+button:hover{
+    background-color: #bd0909;
+
+}
+/* content*/
+
+ .first,.second{
+    border-top:7px solid rgb(55, 55, 55);
+    background-color: black;
+    height:575px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .img{
+    height:450px;
+    width:600px;
+ }
+ .f-text h2{
+    font-size: 48px;
+    font-weight:800;
+ }
+ .f-text p{
+    font-size: 24px;
+    margin-top: 10px;
+ }
+ .ques{
+    display:block;
+    text-align: center;
+    background-color: black;
+    border-top:7px solid rgb(55, 55, 55);
+    height:950px;
+   
+ }
+ .ques h2{
+    font-size: 40px;
+    font-weight: 1000;
+    padding-top:60px;
+    padding-bottom: 20px;
+ }
+ .ques button{
+    margin-left:12%;
+    border-radius: 0px;
+    margin-top:10px;
+    width:1140px;
+    height:84px;
+    background-color: rgb(56, 54, 54);
+    color:white;
+    font-size: 24px;
+    font-weight: lighter;
+
+ }
+ .b-text{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;  
+    padding-left:40px;
+ }
+ .plus-size{
+    font-size:65px;
+    font-weight:lighter;
+    margin-right:20px;
+ }
+ .email button{
+    height:60px;
+    width:203px;
+    border:none;
+    border-radius:4px;
+    background-color: #db0001;
+    color:#fff;
+    font-size:20px;
+    font-weight:700;
+    margin-left: 3px;
+ }
+ .watch-h3{
+    margin-top:55px;
+ }
+.all-links{
+    border-top:7px solid rgb(55, 55, 55);
+    height:400px;
+    background-color: black;
+    color:#FFFFFFB3;
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+ul a{
+    display:flex;
+    margin-top:15px;
+    font-size:14px ;
+    color:#FFFFFFB3;
+}
+ul p{
+    font-size: 16px;
+}
+ul button{
+    margin-top:15px;
+}
+.ul-p{
+    margin-top:15px;
+}
+
+
+
+
+
